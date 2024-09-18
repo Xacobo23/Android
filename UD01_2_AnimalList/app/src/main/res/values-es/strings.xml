@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">UD01_2_AnimalList</string>
+    <string name="btnSend">A</string>
+    <string name="txtSelect">Seleccion opcion</string>
+</resources>
