@@ -3,4 +3,13 @@
     <string name="app_name">UD01_2_AnimalList</string>
     <string name="btnSend">A</string>
     <string name="txtSelect">Selecciona una opcion</string>
+
+    <string name="chihuahua">Chihuahua</string>
+    <string name="Sheppard">German sheppard</string>
+
+    <string name="Persian">Persian</string>
+    <string name="Egypt">Egypt</string>
+
+    <string name="Mallard">Mallard</string>
+    <string name="White_Call">White_Call</string>
 </resources>

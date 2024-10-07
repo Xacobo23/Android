@@ -5,7 +5,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:id="@+id/main"
-    android:gravity="center||top"
+    android:gravity="center_horizontal"
     android:padding="79dp"
     android:layout_margin="20dp"
     >
@@ -14,14 +14,14 @@
         android:id="@+id/txtSelect"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/txtSelect"
         android:padding="11dp"
-        />
+        android:text="@string/txtSelect" />
 
     <Spinner
         android:id="@+id/AnimalList"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:entries="@array/AnimalList"
         />
 
     <Button
@@ -30,5 +30,11 @@
         android:layout_height="wrap_content"
         android:text="@string/btnSend"
         />
+
+    <TextView
+        android:id="@+id/textKindsAnimals"
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
 
 </LinearLayout>
